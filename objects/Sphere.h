@@ -1,37 +1,6 @@
-#include "ray.hpp"
-
-class Color {
-public:
-    int r;
-    int g;
-    int b;
-
-    static Color red() { return Color(255, 0, 0); }
-
-    static Color green() { return Color(0, 255, 0); }
-
-    static Color blue() { return Color(0, 0, 255); }
-
-    static Color white() { return Color(255, 255, 255); }
-
-    static Color black() { return Color(0, 0, 0); }
-
-    Color(int red, int green, int blue) : r(red), g(green), b(blue) {
-
-    };
-    Color(double c) : r(c), g(c), b(c){};
-
-    Color operator*(double d) {
-        return Color(r * d, g * d, b * d);
-    }
-
-    Color operator+(Color other) const {
-        return Color(r + other.r, g + other.g, b + other.b);
-    }
-
-
-};
-
+#include "../ray.hpp"
+#include "../utils/include/Color.h"
+#include <cmath>
 
 class Sphere {
 
@@ -55,18 +24,20 @@ public:
                                          color(Color::red()),
                                          transparacy(0),
                                          reflection(1) {};
+
     Sphere(Vec3 center, double radius, Color c) : center(center),
-                                         radius(radius),
-                                         radius2(radius * radius),
-                                         color(c),
-                                         transparacy(0),
-                                         reflection(1) {};
+                                                  radius(radius),
+                                                  radius2(radius * radius),
+                                                  color(c),
+                                                  transparacy(0),
+                                                  reflection(1) {}
+
 
     //Use equations from https://collaborating.tuhh.de/cpf5546/oop-sose22/-/blob/master/project/doc/objects.md#primitive-objects
     bool intersect(Ray ray, double &t) const {
-        Vec3 sc = center - ray.getOrigin();
-        double dp = ray.getDirection().dot_product(sc); // dot product
-        double delta =  radius2 + pow(dp, 2) - pow(sc.get_length(), 2);
+        Vec3 sc = center - ray.get_origin();
+        double dp = dot_product(ray.get_direction(), sc); // dot product
+        double delta = radius2 + pow(dp, 2) - pow(sc.get_length(), 2);
         if (delta < 0) return false;
         double t1, t2;
         t1 = dp + sqrt(delta);
@@ -103,5 +74,5 @@ public:
         return color;
     }
 
-
 };
+

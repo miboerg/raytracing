@@ -3,4 +3,4 @@ project(raytracing)
 
 set(CMAKE_CXX_STANDARD 17)
 
-add_executable(main main.cpp Vec3.hpp Sphere.hpp ray.hpp render.cpp renderer.hpp)
+add_executable(main main.cpp objects/Sphere.h ray.hpp World.cpp utils/include/Color.h utils/src/Vec3.cpp utils/include/Vec3.h objects/LightSource.h)
