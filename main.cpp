@@ -1,6 +1,5 @@
 #include "objects/World.cpp"
 #include <fstream>
-#include <iostream>
 #include <string>
 #include "lib/json.hpp"
 
@@ -8,7 +7,9 @@ using json = nlohmann::json;
 
 int main() {
 
-    //reads all the data from the settings.json file
+    /*
+     * Reads all the data from the settings.json file and adds it to the world object
+     */
     std::ifstream f("../settings.json");
     json data = json::parse(f);
     int width = data["width"];

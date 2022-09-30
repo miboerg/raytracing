@@ -2,36 +2,42 @@
 #include "../utils/Color.h"
 #include <cmath>
 
+/*
+ * This class represents a sphere object which can be added to a world
+ */
+
 class Sphere {
+
 
 private:
     Vec3 center;
-    double radius, radius2, transparacy, reflection;
+    double radius, radius2;
     Color color;
 
 
 public:
     Sphere() = default;
-    Sphere(Vec3 center, double radius, Color color, double reflection, double transparacy) : center(center),
-                                                                                             radius(radius),
-                                                                                             radius2(radius * radius),
-                                                                                             color(color),
-                                                                                             transparacy(transparacy),
-                                                                                             reflection(reflection) {};
 
+    /*
+     * Takes a Vec3 and double as input.
+     * The Vec3 represents the center of the sphere.
+     * The double represents the radius of the sphere
+     * The default color is set to red.
+     */
     Sphere(Vec3 center, double radius) : center(center),
                                          radius(radius),
                                          radius2(radius * radius),
-                                         color(Color::red()),
-                                         transparacy(0),
-                                         reflection(1) {};
-
+                                         color(Color::red()){};
+    /*
+     * Takes a Vec3, double and color as input.
+     * The Vec3 represents the center of the sphere.
+     * The double represents the radius of the sphere.
+     * The color represents the color of the sphere.
+     */
     Sphere(Vec3 center, double radius, Color c) : center(center),
                                                   radius(radius),
                                                   radius2(radius * radius),
-                                                  color(c),
-                                                  transparacy(0),
-                                                  reflection(1) {}
+                                                  color(c){}
 
 
     //Use equations from https://collaborating.tuhh.de/cpf5546/oop-sose22/-/blob/master/project/doc/objects.md#primitive-objects
@@ -47,30 +53,24 @@ public:
         return true;
     }
 
-    Vec3 canonical_form(Vec3 x) const {
-        return (x - getCenter()) / radius;
-    }
 
+    /*
+     * Returns the center of the sphere
+     */
     const Vec3 getCenter() const {
         return center;
     }
 
+    /*
+     * Returns the radius of the sphere
+     */
     double getRadius() const {
         return radius;
     }
 
-    double getRadius2() const {
-        return radius2;
-    }
-
-    double getTransparacy() const {
-        return transparacy;
-    }
-
-    double getReflection() const {
-        return reflection;
-    }
-
+    /*
+     * Returns the color of the sphere
+     */
     const Color &getColor() const {
         return color;
     }
