@@ -10,7 +10,7 @@
 using std::vector;
 using namespace cimg_library;
 
-/*
+/**
  * The World class contains the core of the project like the main calculations and the image generation.
  */
 class World {
@@ -26,6 +26,9 @@ public:
     World(int width, int height, Vec3 shift, Color background) : width(width), height(height), shift(shift),
                                                                  background(background) {};
 
+    /**
+     *  Main function to render the image with all the data
+     */
     void render_image(std::string path) {
         CImg<unsigned char> image(width, height, 1, 3, 0); // creates a CImg with the according data
 
@@ -81,35 +84,35 @@ public:
 
     }
 
-    /*
+    /**
      * Takes a sphere as argument and adds it to the world
      */
     void add_sphere(Sphere s) {
         spheres.push_back(s);
     }
 
-    /*
+    /**
      * Takes a light source as argument and adds it to the world
      */
     void add_light_source(LightSource ls) {
         light_sources.push_back(ls);
     }
 
-    /*
+    /**
      * Returns the vector of all spheres
      */
     vector<Sphere> &get_spheres() {
         return spheres;
     }
 
-    /*
+    /**
      * Returns the first light source of all light sources
      */
     LightSource &get_light_source() {
         return light_sources[0];
     }
 
-    /*
+    /**
      * Returns the width
      */
 
@@ -117,7 +120,7 @@ public:
         return width;
     }
 
-    /*
+    /**
      * Returns the height
      */
 
@@ -125,7 +128,7 @@ public:
         return height;
     }
 
-    /*
+    /**
      * Returns the background color
      */
     const Color &get_background() {

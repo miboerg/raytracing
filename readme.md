@@ -32,7 +32,7 @@ path, for example "C:\\\\Documents".<br>
 &emsp; **radius:** radius of the sphere. <br>
 &emsp; **color:** color of the sphere in hex format. <br>
 
-### Top generate the image shown above, use the following settings.json file:
+### To generate the image shown above, use the following settings.json file:
 
 ```{
   "width": 1600,

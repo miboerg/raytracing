@@ -1,7 +1,7 @@
 #include <string>
 #include <stdio.h>
 
-/*
+/**
  * Class to represent a color in rgb format.
  */
 
@@ -23,16 +23,13 @@ public:
     }
 
 
-    /*
+    /**
      * Constructor with only one double as input if each r,g,b value should be the same.
      * When the input is 10, the according rgb color will be rgb(10,10,10)
      */
     Color(double c) : r(c), g(c), b(c) {};
 
 
-    /*
-     * Operator overloading
-     */
     Color operator*(double d) {
         return Color(r * d, g * d, b * d);
     }
@@ -45,16 +42,25 @@ public:
         return Color(r - other.r, g - other.g, b - other.b);
     }
 
-    /*
-     * Default initialized rgb colors.
+    /**
+     * Default color red
      */
     static Color red() { return Color(255, 0, 0); }
+    /**
+     * Default color green
+     */
 
     static Color green() { return Color(0, 255, 0); }
-
+    /**
+     * Default color blue
+     */
     static Color blue() { return Color(0, 0, 255); }
-
+    /**
+     * Default color white
+     */
     static Color white() { return Color(255, 255, 255); }
-
+    /**
+     * Default color black
+     */
     static Color black() { return Color(0, 0, 0); }
 };
