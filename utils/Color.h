@@ -1,3 +1,6 @@
+#include <string>
+#include <stdio.h>
+
 class Color {
 public:
     int r;
@@ -5,10 +8,17 @@ public:
     int b;
 
 
+    Color() = default;
 
     Color(int red, int green, int blue) : r(red), g(green), b(blue) {
 
     };
+
+    Color(const char *hex) {
+        std::sscanf(hex, "#%02x%02x%02x", &r, &g, &b);
+    }
+
+
 
     Color(double c) : r(c), g(c), b(c) {};
 
@@ -19,6 +29,7 @@ public:
     Color operator+(Color other) const {
         return Color(r + other.r, g + other.g, b + other.b);
     }
+
     Color operator-(Color other) const {
         return Color(r - other.r, g - other.g, b - other.b);
     }

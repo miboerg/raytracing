@@ -1,5 +1,5 @@
-#include "../ray.hpp"
-#include "../utils/include/Color.h"
+#include "../utils/ray.h"
+#include "../utils/Color.h"
 #include <cmath>
 
 class Sphere {
@@ -11,6 +11,7 @@ private:
 
 
 public:
+    Sphere() = default;
     Sphere(Vec3 center, double radius, Color color, double reflection, double transparacy) : center(center),
                                                                                              radius(radius),
                                                                                              radius2(radius * radius),

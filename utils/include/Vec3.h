@@ -7,6 +7,7 @@ private:
     double x, y, z;
 
 public:
+    Vec3() = default;
     Vec3(double x, double y, double z) : x(x), y(y), z(z){};
 
     double get_x() const;

@@ -11,13 +11,21 @@
 class LightSource {
 private:
     Vec3 center;
+    double intensity;
 
 public:
-    LightSource(Vec3 center) : center(center) {};
+    LightSource(Vec3 center, double intensity) : center(center), intensity(intensity) {
+        if(intensity > 1) intensity = 1;
+        if(intensity < 0) intensity = 0;
+    };
 
-    Vec3 get_center() {
+    Vec3 get_center() const {
         return center;
     }
+    double get_intensity() {
+        return intensity;
+    }
+
 };
 
 
