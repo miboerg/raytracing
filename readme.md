@@ -1,11 +1,11 @@
 
 ![](output.png?raw=True)
 Creepy Mickey Mouse snowman with broken arm.<br> <br>
-#Installation
+# Installation
 Clone the repository and run the main.cpp file.
-#Change Settings
+# Change Settings
 Before you run the main.cpp file, you can change the settings with editing the settings.json file. <br>
-###Parameters:
+### Parameters:
 **width:** width of the final image.<br>
 **height:** height of the final image.<br>
 **camera_pos_x:** x coordinate of the camera.<br>
