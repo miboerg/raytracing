@@ -1,0 +1,24 @@
+<map id="World::render_image" name="World::render_image">
+<area shape="rect" id="node1" title=" " alt="" coords="5,385,148,410"/>
+<area shape="rect" id="node2" href="$_vec3_8cpp.html#ac9c86a666687334b8106a6b7ea8b73f4" title=" " alt="" coords="237,61,328,86"/>
+<area shape="rect" id="node3" href="$class_vec3.html#a6af3ca503a4792c0fad62d61e1bb9c93" title=" " alt="" coords="435,11,527,37"/>
+<area shape="rect" id="node4" href="$class_vec3.html#a5b3583daeba0c323ca884a2fe6627307" title=" " alt="" coords="435,111,527,137"/>
+<area shape="rect" id="node6" href="$class_world.html#aa33b59ca46b2d5f16a9fa8097ff4f5e0" title=" " alt="" coords="205,162,361,187"/>
+<area shape="rect" id="node7" href="$class_light_source.html#a7e5b5889ec9f29e7ed98dac6796a45e3" title=" " alt="" coords="203,211,363,237"/>
+<area shape="rect" id="node8" href="$class_world.html#ae573582a8dd77541da2b23cf42e21fc4" title=" " alt="" coords="221,261,345,286"/>
+<area shape="rect" id="node9" href="$class_light_source.html#a2296e60905bcb7d1a2616afbad4bb779" title=" " alt="" coords="196,310,369,335"/>
+<area shape="rect" id="node10" href="$class_world.html#ac71b16550a625277a1e57a8d11ef4bb3" title=" " alt="" coords="203,359,362,385"/>
+<area shape="rect" id="node11" href="$class_ray.html#acf7b443417d1afc49d8322b77503b4ba" title=" " alt="" coords="233,409,332,434"/>
+<area shape="rect" id="node14" href="$class_world.html#ae7693425252d9d5e79d8141db346f59f" title=" " alt="" coords="215,458,350,483"/>
+<area shape="rect" id="node15" href="$class_world.html#a313fa54b8b97af7cd488191dbb60ed80" title=" " alt="" coords="223,507,342,533"/>
+<area shape="rect" id="node16" href="$class_sphere.html#a657cc9e601aec99205b65e5ea75124ef" title=" " alt="" coords="219,557,346,582"/>
+<area shape="rect" id="node17" href="$class_sphere.html#a8b002b44f43ff48baa12df468218b35e" title=" " alt="" coords="223,606,342,631"/>
+<area shape="rect" id="node18" href="$class_sphere.html#a9e4e358f2fcab9c69296b76292654a2d" title=" " alt="" coords="218,655,347,681"/>
+<area shape="rect" id="node19" href="$class_vec3.html#addb4fc8b8f3a27a0b95d0a07fbb98a7a" title=" " alt="" coords="225,705,341,730"/>
+<area shape="rect" id="node21" href="$class_color.html#aad4699ae003d7a86b5edc5fccdbaf4c8" title=" " alt="" coords="237,754,328,779"/>
+<area shape="rect" id="node5" href="$class_vec3.html#adf3b4ae999c47ebb52998ee5a9ccd9f7" title=" " alt="" coords="435,61,527,86"/>
+<area shape="rect" id="node12" href="$class_ray.html#af3ff8c9bb37ba819b710562debf501f0" title="This function returns the direction of the ray." alt="" coords="417,385,544,410"/>
+<area shape="rect" id="node13" href="$class_ray.html#abf74a15e8357de2c40ff198cd1203c34" title="This function returns the origin of the ray." alt="" coords="426,434,535,459"/>
+<area shape="rect" id="node20" href="$class_vec3.html#a3fa7cbe6d515596e4e37da1a9a06a720" title=" " alt="" coords="421,705,541,730"/>
+<area shape="rect" id="node22" href="$class_color.html#a6fae8aa8b75d27cb134234e75b41caf2" title=" " alt="" coords="435,754,526,779"/>
+</map>

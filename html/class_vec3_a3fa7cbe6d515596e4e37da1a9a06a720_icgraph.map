@@ -1,0 +1,7 @@
+<map id="Vec3::get_length" name="Vec3::get_length">
+<area shape="rect" id="node1" title=" " alt="" coords="464,31,584,56"/>
+<area shape="rect" id="node2" href="$class_sphere.html#ac762e92034ef11020bc6522a8f2c3b17" title=" " alt="" coords="295,5,416,31"/>
+<area shape="rect" id="node3" href="$class_vec3.html#addb4fc8b8f3a27a0b95d0a07fbb98a7a" title=" " alt="" coords="297,55,413,80"/>
+<area shape="rect" id="node4" href="$class_world.html#ae9971f04e23dbf6899d4057cb3eedd7b" title=" " alt="" coords="104,55,247,80"/>
+<area shape="rect" id="node5" href="$main_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4" title="Main function to read all the data from the settings.json file and generate the according image." alt="" coords="5,55,56,80"/>
+</map>

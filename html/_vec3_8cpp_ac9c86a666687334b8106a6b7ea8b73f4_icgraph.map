@@ -1,0 +1,6 @@
+<map id="dot_product" name="dot_product">
+<area shape="rect" id="node1" title=" " alt="" coords="295,31,385,56"/>
+<area shape="rect" id="node2" href="$class_sphere.html#ac762e92034ef11020bc6522a8f2c3b17" title=" " alt="" coords="115,5,236,31"/>
+<area shape="rect" id="node3" href="$class_world.html#ae9971f04e23dbf6899d4057cb3eedd7b" title=" " alt="" coords="104,55,247,80"/>
+<area shape="rect" id="node4" href="$main_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4" title="Main function to read all the data from the settings.json file and generate the according image." alt="" coords="5,55,56,80"/>
+</map>

@@ -1,0 +1,7 @@
+<map id="Ray::get_direction" name="Ray::get_direction">
+<area shape="rect" id="node1" title="This function returns the direction of the ray." alt="" coords="464,31,591,56"/>
+<area shape="rect" id="node2" href="$class_ray.html#acf7b443417d1afc49d8322b77503b4ba" title=" " alt="" coords="306,5,405,31"/>
+<area shape="rect" id="node5" href="$class_sphere.html#ac762e92034ef11020bc6522a8f2c3b17" title=" " alt="" coords="295,55,416,80"/>
+<area shape="rect" id="node3" href="$class_world.html#ae9971f04e23dbf6899d4057cb3eedd7b" title=" " alt="" coords="104,5,247,31"/>
+<area shape="rect" id="node4" href="$main_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4" title="Main function to read all the data from the settings.json file and generate the according image." alt="" coords="5,5,56,31"/>
+</map>

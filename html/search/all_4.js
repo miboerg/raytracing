@@ -1,0 +1,23 @@
+var searchData=
+[
+  ['g_0',['g',['../class_color.html#ab5656e995bddd43d286c7ff5629a31dd',1,'Color']]],
+  ['get_5fbackground_1',['get_background',['../class_world.html#aa33b59ca46b2d5f16a9fa8097ff4f5e0',1,'World']]],
+  ['get_5fcenter_2',['get_center',['../class_light_source.html#a7e5b5889ec9f29e7ed98dac6796a45e3',1,'LightSource']]],
+  ['get_5fdirection_3',['get_direction',['../class_ray.html#af3ff8c9bb37ba819b710562debf501f0',1,'Ray']]],
+  ['get_5fdistance_4',['get_distance',['../class_vec3.html#a8faf4be1122cae47ee52e65c0f27087b',1,'Vec3']]],
+  ['get_5fheight_5',['get_height',['../class_world.html#ae573582a8dd77541da2b23cf42e21fc4',1,'World']]],
+  ['get_5fintensity_6',['get_intensity',['../class_light_source.html#a2296e60905bcb7d1a2616afbad4bb779',1,'LightSource']]],
+  ['get_5flength_7',['get_length',['../class_vec3.html#a3fa7cbe6d515596e4e37da1a9a06a720',1,'Vec3']]],
+  ['get_5flight_5fsource_8',['get_light_source',['../class_world.html#ac71b16550a625277a1e57a8d11ef4bb3',1,'World']]],
+  ['get_5forigin_9',['get_origin',['../class_ray.html#abf74a15e8357de2c40ff198cd1203c34',1,'Ray']]],
+  ['get_5fpos_10',['get_pos',['../class_ray.html#acf7b443417d1afc49d8322b77503b4ba',1,'Ray']]],
+  ['get_5fspheres_11',['get_spheres',['../class_world.html#ae7693425252d9d5e79d8141db346f59f',1,'World']]],
+  ['get_5fwidth_12',['get_width',['../class_world.html#a313fa54b8b97af7cd488191dbb60ed80',1,'World']]],
+  ['get_5fx_13',['get_x',['../class_vec3.html#a6af3ca503a4792c0fad62d61e1bb9c93',1,'Vec3']]],
+  ['get_5fy_14',['get_y',['../class_vec3.html#a5b3583daeba0c323ca884a2fe6627307',1,'Vec3']]],
+  ['get_5fz_15',['get_z',['../class_vec3.html#adf3b4ae999c47ebb52998ee5a9ccd9f7',1,'Vec3']]],
+  ['getcenter_16',['getCenter',['../class_sphere.html#a657cc9e601aec99205b65e5ea75124ef',1,'Sphere']]],
+  ['getcolor_17',['getColor',['../class_sphere.html#a8b002b44f43ff48baa12df468218b35e',1,'Sphere']]],
+  ['getradius_18',['getRadius',['../class_sphere.html#a9e4e358f2fcab9c69296b76292654a2d',1,'Sphere']]],
+  ['green_19',['green',['../class_color.html#ac506f80f2ec86bc439ff19c0f78063c7',1,'Color']]]
+];
